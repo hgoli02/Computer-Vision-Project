@@ -6,14 +6,13 @@
 
 This repository contains the implementation of two key algorithms:
 
-1. **Graph-Based Unsupervised Image Segmentation**
+1. **Ghaem-Hossein Segmentation (GHS)**
 2. **Tiny Neural Radiance Fields (Tiny NeRF)**
 
-Both projects explore advanced methods in computer vision and 3D rendering, focusing on improving robustness, efficiency, and performance in their respective domains.
 
 ## 1. Graph-Based Unsupervised Image Segmentation
 
-This part of the project introduces a novel method for robust image segmentation using a combination of superpixel segmentation techniques and graph theory. Our approach includes the following components:
+In this part, we propose a new method based on superpixel algorithms to create an underlying graph of the image and then use DSU (disjoint set union) to iteratively join the vertices in the overal graph
 
 - **Superpixel Segmentation**: We use the Simple Linear Iterative Clustering (SLIC) algorithm to group pixels into visually coherent clusters, known as superpixels. SLIC efficiently balances segmentation quality with computational efficiency by iteratively assigning pixels to clusters based on spatial and color proximity.
   
