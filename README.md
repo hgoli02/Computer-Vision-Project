@@ -18,24 +18,9 @@ In this part, we propose a new method based on superpixel algorithms to create a
   
 - **Graph-Based Clustering**: After obtaining superpixels, we model the image as a graph, where each superpixel is a vertex. Using graph theory algorithms such as Disjoint Set Union (DSU), we iteratively merge clusters to create globally consistent segmentations. This approach is highly resistant to noise due to its iterative refinement process.
 
-### Key Features:
-- Efficient image segmentation using SLIC.
-- Robust to noise with graph-based merging of superpixels.
-- Suitable for various applications, including object tracking and image compression.
 
 ### Example:
-```python
-from skimage.segmentation import slic
-import cv2
-import matplotlib.pyplot as plt
-
-# Perform SLIC superpixel segmentation
-segments = slic(image, n_segments=400, compactness=10, sigma=1)
-
-# Visualize the result
-plt.imshow(segments)
-plt.show()
-```
+Please see the ```visualization.py``` for examples of the algorithm
 
 ## 2. Tiny Neural Radiance Fields (Tiny NeRF)
 
