@@ -20,6 +20,7 @@ In this part, we propose a new method based on superpixel algorithms to create a
   
 - **Graph-Based Clustering**: After obtaining superpixels, we model the image as a graph, where each superpixel is a vertex. Using graph theory algorithms such as Disjoint Set Union (DSU), we iteratively merge clusters to create globally consistent segmentations. This approach is highly resistant to noise due to its iterative refinement process.
 
+- **Robustness**: One of the benefits of this method is that typically, more k-means is known to be robust to perturbations and SLIC superpixel is a variant of k-means thus, we expect this method to be more robust without any need for adversarial training.
 
 ### Example:
 Please see the ```visualization.py``` for examples of the algorithm.
