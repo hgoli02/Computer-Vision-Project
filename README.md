@@ -56,16 +56,7 @@ Tiny NeRF is a simplified implementation of Neural Radiance Fields (NeRF), a sta
 - Trained using captured RGB images and corresponding camera poses.
   
 
-
-### Running Tiny NeRF
-
-To train and run the **Tiny NeRF model**, use the following command:
-
-```bash
-python tiny_nerf.py --data_path /path/to/dataset
-```
-
-## Authors
+## Team Members
 
 GHS:
 - Hossein Goli
