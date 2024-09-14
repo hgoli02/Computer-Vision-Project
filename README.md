@@ -5,11 +5,12 @@
 
 ## Project Overview
 
-This repository contains the implementation of two key algorithms:
+This repository contains the implementation of the following:
 
 1. **Ghaem-Hossein Segmentation (GHS)**
 2. **Tiny Neural Radiance Fields (Tiny NeRF)**
 
+Also for the project report please see the `report.pdf`
 
 ## 1. Graph-Based Unsupervised Image Segmentation
 
